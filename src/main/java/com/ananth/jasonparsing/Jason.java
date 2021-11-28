@@ -13,6 +13,7 @@ private static ObjectMapper objectMapper = getDefaultObjectMapper();
 private static ObjectMapper getDefaultObjectMapper() {
 	// TODO Auto-generated method stub
 	ObjectMapper defaultObjectMapper = new ObjectMapper();
+	System.out.println(" test ");
 	return defaultObjectMapper;
 }
 
